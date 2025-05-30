@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded',function(){
             dx =0;
             dy= -cellSize;
         }else if(e.key==='ArrowDown' && !isGoingUp){
-            dx=
+            dx=0;
             dy = cellSize;
         }else if(e.key ==="ArrowRight" && !isGoingLeft){
             dx = cellSize;
